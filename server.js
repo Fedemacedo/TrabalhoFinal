@@ -1,6 +1,6 @@
 // Arquivo: server.js
 // Simulação simples de API para o Projeto SGHSS - Back-end
-// Aluno: [SEU NOME] - RU: [SEU RU]
+// Aluno: Felipe Nunes de Macedo - RU: 4574407
 
 const express = require('express');
 const app = express();
@@ -34,4 +34,5 @@ app.get('/api/pacientes', (req, res) => {
 const PORT = 3000;
 app.listen(PORT, () => {
     console.log(`Servidor rodando na porta ${PORT}`);
+
 });
